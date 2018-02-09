@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="padding">16dp</dimen>
+    <dimen name="spacingLn">3sp</dimen>
+    <dimen name="fontSz">18sp</dimen>
+    <dimen name="paddingInfo">8dp</dimen>
+    <dimen name="margin">8dp</dimen>
+    <dimen name="fontInfo">16sp</dimen>
+</resources>

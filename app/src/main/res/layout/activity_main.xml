@@ -1,0 +1,108 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/grayBlue">
+
+    <ImageView
+        android:id="@+id/udacityImg"
+        android:src="@drawable/logoText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:background="@color/white"
+        android:paddingHorizontal="@dimen/padding" />
+
+    <ImageView
+        android:id="@+id/studyImg"
+        android:src="@drawable/study"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/udacityImg"
+        android:adjustViewBounds="true" />
+
+    <TextView
+        android:id="@+id/learnersTxt"
+        android:text="@string/learners"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/studyImg"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:lineSpacingExtra="@dimen/spacingLn"
+        android:padding="@dimen/padding"
+        android:textColor="@color/white"
+        android:textSize="@dimen/fontSz" />
+
+    <ImageView
+        android:id="@+id/udacityLogo"
+        android:src="@drawable/udacity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button" />
+
+    <TextView
+        android:id="@+id/info"
+        android:text="@string/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/udacityLogo"
+        android:layout_above="@id/button"
+        android:fontFamily="sans-serif"
+        android:gravity="left"
+        android:lineSpacingExtra="@dimen/spacingLn"
+        android:paddingVertical="@dimen/paddingInfo"
+        android:layout_marginHorizontal="@dimen/margin"
+        android:textColor="@color/white"
+        android:textSize="@dimen/fontInfo" />
+
+    <ImageView
+        android:id="@+id/facebook"
+        android:src="@drawable/facebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/instagram"
+        android:layout_alignParentRight="true" />
+
+    <ImageView
+        android:id="@+id/instagram"
+        android:src="@drawable/instagram"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button"
+        android:layout_alignParentRight="true" />
+
+    <ImageView
+        android:id="@+id/google"
+        android:src="@drawable/google_plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/facebook"
+        android:layout_above="@id/twitter" />
+
+    <ImageView
+        android:id="@+id/twitter"
+        android:src="@drawable/twitter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button"
+        android:layout_toLeftOf="@id/instagram" />
+
+    <Button
+        android:id="@+id/button"
+        android:text="@string/explore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/button"
+        android:fontFamily="monospace"
+        android:padding="@dimen/padding"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/fontSz" />
+
+</RelativeLayout>
+

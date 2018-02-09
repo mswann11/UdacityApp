@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">HelloAndroid</string>
+    <string name="info">2465 Latham St\nMountain View, CA 94043\n650-555-5555</string>
+    <string name="learners">Where lifelong learners come to learn the skills they need, to land the jobs they want, to build the lives they deserve.</string>
+    <string name="explore">Explore Courses</string>
+</resources>
