@@ -8,7 +8,7 @@
 
     <ImageView
         android:id="@+id/udacityImg"
-        android:src="@drawable/logoText"
+        android:src="@drawable/logo_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:adjustViewBounds="true"
@@ -28,8 +28,8 @@
         android:text="@string/learners"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/studyImg"
         android:layout_centerHorizontal="true"
+        android:layout_below="@id/studyImg"
         android:fontFamily="sans-serif"
         android:gravity="center"
         android:lineSpacingExtra="@dimen/spacingLn"
